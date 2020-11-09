@@ -8,7 +8,7 @@ public class Main {
             percent = 0;
         }
         int account = 100;
-        int bonus = (int)deposit * (int)percent /100;
+        int bonus = deposit * percent / 100;
         int result = deposit + account + bonus;
         System.out.println(result);
     }
