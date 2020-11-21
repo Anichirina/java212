@@ -4,7 +4,8 @@ public class Main {
        int percent;
         if (deposit>1000) {
             percent = 1;
-        } else {
+        }
+        else {
             percent = 0;
         }
         int account = 100;
